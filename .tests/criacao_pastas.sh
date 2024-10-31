@@ -2,8 +2,6 @@
 
 cd ~
 
-echo "TESTE"
-
 if [[ ! -d "joao" ]]; then 
 	echo "ERRO: pasta 'joao' nao esta criada!"
 	exit 1

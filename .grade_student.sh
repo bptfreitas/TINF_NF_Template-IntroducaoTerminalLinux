@@ -2,4 +2,4 @@
 
 ./trabalho.sh
 
-./corrigir.sh
+./corretor

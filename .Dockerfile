@@ -8,16 +8,14 @@ WORKDIR /root
 
 COPY .tests/ .tests/
 
-COPY trabalho.sh trabalho.sh
-
-COPY corrigir.sh corrigir.sh
-
-COPY .corretor .corretor
-
-RUN chmod +x ./trabalho.sh
+COPY .corretor corretor
 
 RUN chmod +x ./corretor
 
-RUN chmod +x ./corrigir.sh
+COPY .grade_student.sh grade_student.sh
 
-CMD [ "./corrigir.sh" ]
+COPY trabalho.sh trabalho.sh
+
+RUN chmod +x ./trabalho.sh
+
+CMD [ "./grade_student.sh" ]
