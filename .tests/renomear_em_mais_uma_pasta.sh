@@ -2,6 +2,11 @@
 
 cd ~/mais_uma_pasta
 
+if [[ $? -ne 0 ]]; then
+	echo "ERRO: pasta 'mais_uma_pasta' nao existe!"
+	exit 1
+fi
+
 diff -q -r maria ~/joao
 
 if [[ $? -ne 0 ]]; then
