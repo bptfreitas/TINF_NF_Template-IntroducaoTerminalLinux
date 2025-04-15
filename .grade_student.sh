@@ -45,4 +45,11 @@ echo "QUESTAO 6"
 total=$(( total + 1))
 echo
 
+echo "QUESTAO 7"
+./questao07.sh
+./.tests/remover_srv.sh
+[[ $? -eq 0 ]] && points=$(( points + 1 ))
+total=$(( total + 1))
+echo
+
 echo "NOTA: ${points}/${total}"
