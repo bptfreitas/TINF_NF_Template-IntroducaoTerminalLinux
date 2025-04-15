@@ -35,4 +35,8 @@ Exemplo: A cópia da pasta "joao" deverá se chamar "joao_copia".
 
 6. Renomeie as pastas mais_uma_pasta/maria para mais_uma_pasta/joao e vice-versa
 
+7. Apague a pasta /srv
+
+Nota: isso pode gerar consequências sérias no computador ... não rode fora do script ./corrigir.sh!
+
 

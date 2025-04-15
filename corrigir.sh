@@ -1,6 +1,6 @@
 #!/bin/bash
 
-container='introducao-terminal'
+container='introducao-terminal-linux'
 tag='dev'
 
 docker_dir="`which docker`"
