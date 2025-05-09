@@ -9,7 +9,7 @@ if [[ ! -d "joao" ]]; then
 fi
 
 if [[ ! -d "maria" ]]; then 
-	echo "ERRO: pasta 'joao' nao esta criada!"
+	echo "ERRO: pasta 'maria' nao esta criada!"
 	exit 2
 
 fi
